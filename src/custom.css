@@ -1,0 +1,87 @@
+/* custom.css */
+
+/* style website for dark theme */
+body {
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0.3125rem;
+  padding: 0.3125rem;
+}
+
+/* style the card component */
+.card {
+  background-color: #1e1e1e;
+  border: none;
+}
+
+.card-body {
+  color: #f0f0f0;
+}
+
+.card-title {
+  color: #f0f0f0;
+  text-align: center;
+}
+
+.card-subtitle {
+  color: #b0b0b0;
+}
+
+/* style tabs and tab content */
+.nav-tabs .nav-link {
+  color: #b0b0b0;
+}
+
+.nav-tabs .nav-link.active {
+  color: #ff4d4d;
+  background-color: #292929;
+  border-color: #292929;
+}
+
+.tab-content .card {
+  background-color: #1e1e1e;
+}
+
+.tab-content .card-body {
+  color: #f0f0f0;
+}
+
+/* change default link styling */
+a {
+  color: #ff4d4d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff6666;
+}
+
+/* style faux buttons */
+button.m-1 {
+  color: #ff4d4d;
+  border: 1px solid #ff4d4d;
+  background-color: transparent;
+}
+
+button.m-1:hover {
+  color: #ff6666;
+  border-color: #ff6666;
+  background-color: #292929;
+}
+
+/* style contact card text */
+.contact-information a {
+  color: #ff4d4d;
+}
+
+.contact-information a:hover {
+  color: #1aafff;
+}
+
+/* specific styling for WhatsApp link when hovered over */
+.contact-information a[href^="https://wa.me/"]:hover
+{
+  /* WhatsApp green colour */
+  color: #25d366;
+}
