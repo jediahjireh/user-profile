@@ -15,7 +15,7 @@
 
 ## Overview
 
-This project is a React-based web application designed to display a detailed user profile. It features a profile card with user information and interactive tabs showcasing various aspects of the user's background, skills, experience and more. The application uses React, Bootstrap for styling and custom CSS for additional styles.
+This project is a React-based web application designed to display a detailed user profile. It features a profile card with user information and interactive tabs showcasing various aspects of the user's background, skills and experience. The application uses React, Bootstrap for styling and custom CSS for additional styles.
 
 ## Features
 
